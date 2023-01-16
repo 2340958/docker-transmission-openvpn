@@ -8,7 +8,7 @@ services:
             - '/path/to/data/:/config'
         environment:
             - OPENVPN_PROVIDER=nordvpn
-            - OPENVPN_CONFIG=Switzerland
+            - NORDVPN_COUNTRY=France
             - NORDVPN_CATEGORY=legacy_p2p
             - NORDVPN_PROTOCOL=tcp
             - OPENVPN_USERNAME=YourUser
